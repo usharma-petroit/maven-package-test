@@ -54,7 +54,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub Packages</name>
-                    <url>https://github.com/usharma-petroit/maven-package-test</url>
+                    <url>https://maven.pkg.github.com/usharma-petroit/maven-package-test</url>
                 </repository>
             </distributionManagement>
         </profile>
