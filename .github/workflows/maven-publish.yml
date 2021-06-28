@@ -29,7 +29,7 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn --batch-mode -DuseGitHubPackages=true deploy
+      run: mvn deploy
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
     
